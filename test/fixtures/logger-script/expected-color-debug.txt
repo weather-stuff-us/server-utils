@@ -1,0 +1,4 @@
+2019-01-29 17:24:16.642 [44m[37m[1m[DEBUG][22m[39m[49m @weather-stuff-us/server-utils test/fixtures/logger-script/script.js - debug
+2019-01-29 17:24:16.643 [INFO]  @weather-stuff-us/server-utils test/fixtures/logger-script/script.js - info
+2019-01-29 17:24:16.644 [43m[30m[1m[WARN] [22m[39m[49m @weather-stuff-us/server-utils test/fixtures/logger-script/script.js - warn 42 warn
+2019-01-29 17:24:16.645 [41m[37m[1m[ERROR][22m[39m[49m @weather-stuff-us/server-utils test/fixtures/logger-script/script.js - error { a: 42 }

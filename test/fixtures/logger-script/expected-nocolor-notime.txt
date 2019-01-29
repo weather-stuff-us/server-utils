@@ -1,0 +1,3 @@
+[INFO]  @weather-stuff-us/server-utils test/fixtures/logger-script/script.js - info
+[WARN]  @weather-stuff-us/server-utils test/fixtures/logger-script/script.js - warn 42 warn
+[ERROR] @weather-stuff-us/server-utils test/fixtures/logger-script/script.js - error { a: 42 }

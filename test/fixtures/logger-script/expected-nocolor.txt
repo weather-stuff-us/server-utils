@@ -1,0 +1,3 @@
+2019-01-29 17:24:15.959 [INFO]  @weather-stuff-us/server-utils test/fixtures/logger-script/script.js - info
+2019-01-29 17:24:15.961 [WARN]  @weather-stuff-us/server-utils test/fixtures/logger-script/script.js - warn 42 warn
+2019-01-29 17:24:15.963 [ERROR] @weather-stuff-us/server-utils test/fixtures/logger-script/script.js - error { a: 42 }

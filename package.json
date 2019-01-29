@@ -1,0 +1,38 @@
+{
+  "name": "@weather-stuff-us/server-utils",
+  "version": "0.0.1",
+  "description": "server utilities for weather-stuff-us",
+  "license": "MIT",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "homepage": "https://github.com/weather-stuff-us/server-utils",
+  "main": "server-utils.js",
+  "scripts": {
+    "check-deps": "tools/check-deps.sh",
+    "standard": "standard --verbose",
+    "utest": "tap --color --reporter=classic test/test-*.js",
+    "test": "standard --verbose && npm -s run utest",
+    "watch": "nodemon --exec 'npm run check-deps && standard --verbose && tools/quiet-utest.sh'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weather-stuff-us/server-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weather-stuff-us/server-utils/issues"
+  },
+  "standard": {
+    "ignore": [
+      "/node_modules/",
+      "/tmp/"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "dependency-check": "^3.3.0",
+    "nodemon": "^1.18.9",
+    "standard": "^12.0.1",
+    "tap": "^12.4.0"
+  }
+}
