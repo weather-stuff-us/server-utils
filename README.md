@@ -7,9 +7,9 @@ servers.
 [weather-stuff-us]: https://weather-stuff-us.github.io/
 
 api
---------------------------------------------------------------------------------
+================================================================================
 
-This module exports the following functions.
+This package exports the following functions:
 
 ## `createLogger(fileName)`
 
@@ -66,7 +66,7 @@ install
 
 This package is not available on `npm`, but can be installed from GitHub:
 
-    npm install weather-stuff-us/server-utils
+    npm install github:weather-stuff-us/server-utils
 
 
 license
